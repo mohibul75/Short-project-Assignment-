@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Button fx:id="btn1" layoutX="264.0" layoutY="28.0" mnemonicParsing="false" onAction="#fileSelection" prefHeight="33.0" prefWidth="110.0" text="Browse..." textFill="#1cad1c">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="lbl1" layoutX="21.0" layoutY="28.0" prefHeight="33.0" prefWidth="215.0" text="No file choosen" textFill="#b21e1e">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn3" layoutX="128.0" layoutY="99.0" mnemonicParsing="false" onAction="#csv" prefHeight="41.0" prefWidth="145.0" text="CSV" textFill="#2242b5">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn2" layoutX="129.0" layoutY="168.0" mnemonicParsing="false" onAction="#xml" prefHeight="41.0" prefWidth="145.0" text="XML" textFill="#271f9e">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn4" layoutX="126.0" layoutY="235.0" mnemonicParsing="false" onAction="#json" prefHeight="41.0" prefWidth="153.0" text="JSON" textFill="#283ba8">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
